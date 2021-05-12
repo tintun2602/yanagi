@@ -748,7 +748,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   * {
     margin: 0;
     padding: 0;
@@ -828,7 +828,7 @@ textarea {
   .hero-img-container h1 {
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 10%;
     z-index: 1;
     font-size: 15px;
   }
@@ -855,15 +855,15 @@ textarea {
   }
 
   .container h2 {
-    margin: 4rem 4rem 0rem 4rem;
+    margin: 2rem 2rem 2rem 2rem;
   }
 
   .container {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
     display: flex;
     min-width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
     display: flex;
     flex-wrap: wrap;
   }
@@ -873,6 +873,7 @@ textarea {
     flex-direction: column;
     min-height: 7rem;
     width: 100%;
+    padding: 0rem;
   }
 
   .box a {
@@ -897,39 +898,34 @@ textarea {
     width: 100%;
     position: relative;
     margin: 0;
+    flex-direction: column;
   }
 
   .about h2 {
-    font-size: 2rem;
-    padding: 4rem 0rem;
-    margin: 2rem 0rem;
+    font-size: 1rem;
+    padding: 2rem 0rem;
+    margin: 0rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .about p {
-    width: 50%;
-    font-size: 1rem;
-    margin: 0rem 2rem;
+    font-size: 0.5rem;
+    margin: 0rem 4rem;
+    width: 80%;
   }
 
   .map {
-    padding: 1rem 1rem;
-    right: -5%;
-    top: 5%;
-    position: absolute;
-    display: flex;
-    align-items: center;
+    margin-bottom: 0rem;
+    margin-right: 3rem;
+    padding-top: 2rem;
   }
 
   .map,
   .about-txt {
     width: 300px;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   footer {
