@@ -246,7 +246,6 @@ footer {
   display: flex;
   font-family: poppins, sans-serif;
   margin-top: 2rem;
-  background-color: rgb(207, 207, 196);
 }
 
 footer a i {
@@ -262,14 +261,12 @@ footer ul h3 {
   padding: 1rem 0rem;
   text-decoration: none;
   list-style: none;
-  background-color: rgb(207, 207, 196);
 }
 
 footer p {
   font-family: poppins, sans-serif;
   padding: 2rem 0rem;
   margin: 2rem 4rem;
-  background-color: rgb(207, 207, 196);
 }
 
 @media screen and (max-width: 1000px) {
