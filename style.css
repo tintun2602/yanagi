@@ -246,6 +246,7 @@ footer {
   display: flex;
   font-family: poppins, sans-serif;
   margin-top: 2rem;
+  background-color: rgb(207, 207, 196);
 }
 
 footer a i {
