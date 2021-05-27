@@ -944,7 +944,7 @@ textarea {
   }
 
   footer ul h3 {
-    margin: 0rem 1rem;
+    margin: 0rem 2rem;
     padding: 0.5rem 0rem;
     text-decoration: none;
     list-style: none;
@@ -954,7 +954,7 @@ textarea {
   footer p {
     font-family: poppins, sans-serif;
     padding: 1rem 0rem;
-    margin: 1rem 1rem;
+    margin: 1rem 2rem;
     font-size: 8px;
   }
 
@@ -965,10 +965,11 @@ textarea {
 
   .menu-item-container p {
     font-size: 0.5rem;
+    margin: 0rem 4rem;
   }
 
   .menu-item h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .menu-container h1 {
@@ -995,8 +996,9 @@ textarea {
   }
 
   .menu-item p {
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     margin: 0rem 2rem;
+    display: flex;
   }
 
   .menu-container {
@@ -1019,117 +1021,5 @@ textarea {
     height: 5%;
     border-right: 2px solid white;
     animation: blink 0.5s infinite ease;
-  }
-
-  @keyframes blink {
-    0% {
-      opacity: 0;
-      right: -100;
-    }
-    100% {
-      opacity: 1;
-      right: 0;
-    }
-  }
-
-  .container-contact {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 100px;
-  }
-
-  .container-contact:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: url("img/sushi1.jpg") no-repeat center;
-    background-size: cover;
-    filter: blur(50px);
-    z-index: -1;
-  }
-  .contact-box {
-    max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-  }
-
-  .left {
-    background: url("img/yanagi.jpg") no-repeat center;
-    background-size: cover;
-    height: 50%;
-  }
-
-  .right {
-    padding: 25px 40px;
-  }
-
-  .contact-h2 {
-    position: relative;
-    padding: 0 0 10px;
-    margin-bottom: 10px;
-  }
-
-  .contact-h2:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #cc3b3bfa;
-  }
-
-  .field {
-    width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    outline: none;
-    background-color: rgba(230, 230, 230, 0.6);
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    margin-bottom: 22px;
-    transition: 0.3s;
-  }
-
-  .field:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  textarea {
-    min-height: 150px;
-  }
-
-  .btn {
-    width: 100%;
-    padding: 0.5rem 1rem;
-    background-color: #cc3b3bfa;
-    color: #fff;
-    font-size: 1.1rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  .btn:hover {
-    background-color: #cc3b3bfa;
-  }
-
-  .field:focus {
-    border: 2px solid rgba(30, 85, 250, 0.47);
-    background-color: #fff;
   }
 }
