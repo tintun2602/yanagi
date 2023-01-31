@@ -145,20 +145,19 @@
     display: flex;
     flex-direction: row;
   }
-
+  /* 
   .sub-description {
     flex-basis: 50%;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
-    background-color: red;
-  }
+  } */
 
   .map {
-    flex-basis: 50%;
-    width: 10vh;
-    height: 10vh;
+    width: auto;
+    height: auto;
+    align-self: center;
   }
 
   footer {
